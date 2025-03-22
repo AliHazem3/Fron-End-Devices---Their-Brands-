@@ -1,0 +1,40 @@
+/*
+# why we use in the first CSS file   *{
+  margin : 0;
+  padding: 0;
+}
+
+Anwser:
+The purpose of using this code at the beginning of a CSS file is to reset or normalize the default styling of HTML elements across different browsers. Different browsers have their own 
+default styles for HTML elements, and these styles
+*/
+
+
+*{
+  margin : 0;
+  padding: 0;
+}
+
+body{
+  background-color:  black;
+  font-family: system-ui;
+  
+}
+
+
+
+.block{                 /* create class in css use . then name of  class */
+  border-radius: 20px; /* this make border circle shape      */
+  padding: 10px;  /* increasing hight of the shape or dive*/
+  
+}
+
+.button {
+  background-color: yellowgreen;
+   
+}
+
+h1 , label{
+  color:antiquewhite;
+  
+}
